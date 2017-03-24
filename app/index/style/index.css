@@ -1,0 +1,60 @@
+#wrapper {
+    width: 100%;
+    border-top: 3px solid #019875;
+    font-size: 16px;
+    font-family: "微软雅黑";
+
+}
+
+#header {
+    width: 60%;
+    margin: 0px auto;
+    margin-bottom: 35px;
+}
+
+#container {
+    width: 55%;
+    margin: 0px auto;
+    margin-bottom: 35px;
+}
+
+#content {
+    width: 100%;
+    overflow: hidden;
+}
+
+#content .leftNav {
+    width: 22%;
+    float: left;
+    background: #FAFAFA none repeat scroll 0 0;
+}
+
+#content .rightContent {
+    float: right;
+    position: relative;
+    width: 73%;
+}
+
+#content .searchBar {
+    width: 100%;
+}
+
+.rightContent .my-circlePic {
+    width: 100%;
+    overflow: hidden;
+    height: 160px;
+}
+
+.rightContent .my-advert {
+    width: 100%;
+}
+
+.rightContent .my-friendlink {
+    width: 100%;
+}
+
+.rightContent #my-bottom {
+    width: 100%;
+}
+
+
