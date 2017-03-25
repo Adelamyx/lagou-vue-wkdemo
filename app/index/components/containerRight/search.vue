@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="searchBar">
         <div id="searchType">
             <ul>
                 <li>职位</li>
@@ -27,7 +27,7 @@
     </div>
 </template>
 <style>
-    #content .rightContent #searchType {
+    #searchType {
         position: relative;
         width: 15%;
         cursor: pointer;
@@ -36,13 +36,13 @@
         z-index: 5;
     }
 
-    #content .rightContent #searchType ul {
+    #searchType ul {
         width: 100%;
         height: 37px;
 
     }
 
-    #content .rightContent #searchType li {
+    #searchType li {
         height: 100%;
         line-height: 37px;
         text-align: center;
@@ -70,7 +70,7 @@
 
     /*三角开始*/
     #searchType .dowmICO {
-        background: url(../images/s_drop.png);
+        background: url(../../images/s_drop.png);
         width: 14px;
         height: 9px;
         position: absolute;
@@ -140,8 +140,9 @@
         },
         mounted: function () {
             //第一次加载的时候调用这个方法
-            $('#searchType ul li').click(function() { /*搜索框搜索条件切换*/
-                var index = $(this).index(); /*获得当前点击元素的index*/
+            $('#searchType ul li').click(function () { /*搜索框搜索条件切换*/
+                var index = $(this).index();
+                /*获得当前点击元素的index*/
                 if (index == 1) { /*若为第二个，则将它移入第一个之前*/
                     var target = $(this);
                     target.prev('li').insertAfter(target);

@@ -1,19 +1,27 @@
 <template>
-    <div id="top">
-        <img src="../images/logo.png" alt="">
-        <ul class="topBar">
-            <li class="active">首页</li>
-            <li>公司</li>
-            <li>我的简历</li>
-            <li>发布职位</li>
-        </ul>
-        <div class="loginBtn">
-            <a href="#">注册</a>
-            <a href="#">登录</a>
+    <div id="header">
+        <div id="top">
+            <img src="../images/logo.png" alt="">
+            <ul class="topBar">
+                <li class="active">首页</li>
+                <li>公司</li>
+                <li>我的简历</li>
+                <li>发布职位</li>
+            </ul>
+            <div class="loginBtn">
+                <a href="#">注册</a>
+                <a href="#">登录</a>
+            </div>
         </div>
     </div>
 </template>
 <style>
+    #header {
+        width: 60%;
+        margin: 0px auto;
+        margin-bottom: 35px;
+    }
+
     #top {
         width: 100%;
         height: 60px;
@@ -67,16 +75,16 @@
     }
 </style>
 <script>
-    module.exports={
-        data:function () {
+    module.exports = {
+        data: function () {
             //数据
             return {}
         },
-        mounted:function () {
+        mounted: function () {
             //第一次加载的时候调用这个方法
 
         },
-        methods:{
+        methods: {
             //方法
         }
     }

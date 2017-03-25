@@ -1,10 +1,10 @@
 <template>
-    <div>
+    <div class="leftNav">
         <!--MenuBox导航菜单-->
         <div class="menu_box">
             <div class="nav_main">
                 <h2>技术<span></span></h2>
-                <router-link :to="{ path: '/nav1' }">
+                <router-link :to="{ path: '/technology' }">
                     <a href="javascript:;">Java</a>
                 </router-link>
                 <a href="#">PHP</a>
@@ -378,23 +378,26 @@
     </div>
 </template>
 <style>
-    #content .leftNav .menu_box {
+    .leftNav{
+        width: 100%;
+    }
+    .leftNav .menu_box {
         position: relative;
         z-index: 7;
     }
 
-    #content .leftNav .menu_box .nav_main {
+    .leftNav .menu_box .nav_main {
         padding: 6px 12px;
         border: 2px solid #FAFAFA;
         position: relative;
     }
 
-    #content .leftNav .menu_box .nav_main h2 {
+    .leftNav .menu_box .nav_main h2 {
         font-size: 1.12em;
         margin: 10px 0px;
     }
 
-    #content .leftNav .menu_box a {
+    .leftNav .menu_box a {
         font-size: 0.87em;
         display: inline-block;
         padding-right: 8px;
@@ -402,7 +405,7 @@
         white-space: nowrap;
     }
 
-    #content .leftNav .menu_box:hover .nav_main {
+    .leftNav .menu_box:hover .nav_main {
         border: 2px solid #C9CBCE;
         border-right: #ffffff;
         background-color: #ffffff;
@@ -410,54 +413,54 @@
         position: relative;
     }
 
-    #content .leftNav a {
+    .leftNav a {
         color: #555555;
         text-decoration: none;
     }
 
-    #content .leftNav a:hover {
+    .leftNav a:hover {
         color: #019875;
         text-decoration: underline;
     }
 
-    #content .leftNav .menu_box span {
+    .leftNav .menu_box span {
         float: right;
         width: 13px;
         height: 14px;
         background: rgba(0, 0, 0, 0) url(../images/arr.png) no-repeat scroll 0 0;
     }
 
-    #content .leftNav .menu_box .nav_sub {
+    .leftNav .menu_box .nav_sub {
         width: 250%;
         background-color: #ffffff;
         position: absolute;
         display: none;
     }
 
-    #content .leftNav .menu_box .nav_sub dl {
+    .leftNav .menu_box .nav_sub dl {
         margin: 20px;
     }
 
-    #content .leftNav .menu_box .nav_sub dt {
+    .leftNav .menu_box .nav_sub dt {
         width: 15%;
         float: left;
         text-align: right;
         margin-right: 5%;
     }
 
-    #content .leftNav .menu_box .nav_sub dd {
+    .leftNav .menu_box .nav_sub dd {
         width: 80%;
         float: left;
     }
 
-    #content .leftNav .menu_box .active {
+    .leftNav .menu_box .active {
         display: block;
         position: absolute;
         border: 2px solid #C9CBCE;
         z-index: 3;
     }
 
-    #content .leftNav .order h2 {
+    .leftNav .order h2 {
         font-size: 1.12em;
         padding: 5%;
         margin-top: 5%;
@@ -465,7 +468,7 @@
         cursor: pointer;
     }
 
-    #content .leftNav .order span {
+    .leftNav .order span {
         width: 12px;
         height: 12px;
         float: right;

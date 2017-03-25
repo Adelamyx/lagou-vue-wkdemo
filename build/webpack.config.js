@@ -50,10 +50,13 @@ module.exports = {
             }
         ]
     },
-    Favlist: {
-        loaders: {
-            js: 'babel'
-        }
+    // Favlist: {
+    //     loaders: {
+    //         js: 'babel'
+    //     }
+    // },
+    babel: {
+        presets: ['es2015']
     },
     plugins: [
         new HtmlWebpackPlugin({

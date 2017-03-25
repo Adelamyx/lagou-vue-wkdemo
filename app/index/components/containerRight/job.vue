@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="right-job">
         <!--JobNav职位切换-->
         <div class="jobNav">
             <ul>
@@ -1540,97 +1540,101 @@
         </div>
         <!--end NewJob-->
         <!--查看更多开始-->
-        <a href="#" id="viewMore">查看更多<span><img src="../images/sub_icon.png"/></span></a>
+        <a href="#" id="viewMore">查看更多<span><img src="../../images/sub_icon.png"/></span></a>
         <!--查看更多结束  -->
     </div>
 </template>
 <style>
-    .rightContent .jobNav {
+    #right-job {
+        width: 100%;
+    }
+
+    .jobNav {
         width: 100%;
         background: rgb(246, 246, 246);
         margin-top: 20px;
     }
 
-    .rightContent .jobNav ul li {
+    .jobNav ul li {
         font-size: 1.25em;
         padding: 7px 20px;
         cursor: pointer;
         display: inline-block;
     }
 
-    .rightContent .jobNav ul .choose {
+    .jobNav ul .choose {
         border-top: 3px solid #77D3BE;
         background-color: rgb(255, 255, 255);
     }
 
-    .rightContent .hotJob,
-    .rightContent .newJob {
+    .hotJob,
+    .newJob {
         width: 100%;
         position: relative;
     }
 
-    .rightContent .newJob {
+    .newJob {
         display: none;
     }
 
-    .rightContent .hotJob li:nth-child(even),
-    .rightContent .newJob li:nth-child(even) {
+    .hotJob li:nth-child(even),
+    .newJob li:nth-child(even) {
         background-color: rgb(250, 250, 250);
     }
 
-    .rightContent .hotJob li,
-    .rightContent .newJob li {
+    .hotJob li,
+    .newJob li {
         overflow: hidden;
         padding: 10px;
     }
 
-    .rightContent .hotJob li .jobInfo,
-    .rightContent .newJob li .jobInfo {
+    .hotJob li .jobInfo,
+    .newJob li .jobInfo {
         width: 50%;
         float: left;
     }
 
-    .rightContent .hotJob li h2,
-    .rightContent .newJob li h2 {
+    .hotJob li h2,
+    .newJob li h2 {
         padding: 0 0 20px 0;
     }
 
-    .rightContent .hotJob li h2 a,
-    .rightContent .newJob li h2 a {
+    .hotJob li h2 a,
+    .newJob li h2 a {
         color: black;
         margin-right: 20px;
     }
 
-    .rightContent .hotJob li .companyInfo h2 a,
-    .rightContent .newJob li .companyInfo h2 a {
+    .hotJob li .companyInfo h2 a,
+    .newJob li .companyInfo h2 a {
         text-decoration: none;
     }
 
-    .rightContent .hotJob li .light,
-    .rightContent .newJob li .light {
+    .hotJob li .light,
+    .newJob li .light {
         color: rgb(119, 119, 119);
     }
 
-    .rightContent .hotJob li p,
+    .hotJob li p,
     .rightContent .newJob li p {
         margin: 10px 0;
         font-size: 0.8em;
     }
 
-    .rightContent .hotJob li .companyInfo,
-    .rightContent .newJob li .companyInfo {
+    .hotJob li .companyInfo,
+    .newJob li .companyInfo {
         width: 50%;
         float: left;
     }
 
-    .rightContent .hotJob li .feature,
-    .rightContent .newJob li .feature {
+    .hotJob li .feature,
+    .newJob li .feature {
         border: 1px solid rgb(119, 119, 119);
         margin-right: 10px;
     }
 
-    .rightContent .hotJob li .small,
-    .rightContent .newJob li .small {
+    .hotJob li .small,
+    .newJob li .small {
         margin-left: 20px;
     }
 

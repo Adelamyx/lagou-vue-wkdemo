@@ -5419,7 +5419,7 @@
 	    var rawChild = children[0];
 
 	    // if this is a component root node and the component's
-	    // parent container node also has transition, skip.
+	    // parent container.vue node also has transition, skip.
 	    if (hasParentTransition(this.$vnode)) {
 	      return rawChild
 	    }
