@@ -4,17 +4,17 @@
             <img src="../images/logo.png" alt="">
 
             <ul class="topBar">
-                <router-link :to="{ path: '/index/containerright' }">
-                    <li class="active">首页</li>
+                <router-link :to="{ path: '/index/containerright' }" tag="li" active-class="active">
+                    首页
                 </router-link>
-                <router-link :to="{ path: '/company' }">
-                    <li>公司</li>
+                <router-link :to="{ path: '/company' }" tag="li" active-class="active">
+                    公司
                 </router-link>
-                <router-link :to="{ path: '/resume' }">
-                    <li>我的简历</li>
+                <router-link :to="{ path: '/resume' }" tag="li" active-class="active">
+                    我的简历
                 </router-link>
-                <router-link :to="{ path: '/jobdetail' }">
-                    <li>发布职位</li>
+                <router-link :to="{ path: '/jobdetail' }" tag="li" active-class="active">
+                    发布职位
                 </router-link>
             </ul>
             <div class="loginBtn">
@@ -91,11 +91,10 @@
         },
         mounted: function () {
             //第一次加载的时候调用这个方法
-
         },
         methods: {
             //方法
-            
+
         }
     }
 </script>
