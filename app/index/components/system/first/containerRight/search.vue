@@ -70,7 +70,7 @@
 
     /*三角开始*/
     #searchType .dowmICO {
-        background: url(../../images/s_drop.png);
+        background: url(../../../../images/s_drop.png);
         width: 14px;
         height: 9px;
         position: absolute;

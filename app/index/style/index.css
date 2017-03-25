@@ -6,9 +6,6 @@
 
 }
 
-#container {
-    width: 55%;
-    margin: 0px auto;
-    margin-bottom: 35px;
+#headerContainer{
+    width: 100%;
 }
-

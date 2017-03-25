@@ -5,14 +5,21 @@ import VueResource from 'vue-resource'
 import 'mod/jquery'
 
 //===========导入Vue组件==============
-
-import header from './components/header.vue'
-import container from './components/container.vue'
+import headerContainer from './components/headerContainer.vue'
 import bottom from './components/bottom.vue'
 
 
-import technology from './components/technology/technology-java.vue'
-import containerright from './components/containerRight/containerright.vue'
+import first from './components/navigation/first.vue'
+import company from './components/navigation/company.vue'
+import resume from './components/navigation/resume.vue'
+import jobdetail from './components/navigation/jobdetail.vue'
+
+
+import containerright from './components/system/first/containerRight/containerright.vue'
+
+
+import technology from './components/system/first/containerLeft/technology/technology-java.vue'
+
 
 //==========导入CSS文件===============
 import './style/cssReset.css'
@@ -27,14 +34,32 @@ Vue.http.options.emulateJSON = true;
 
 var routes = [
     {
-        path: "/technology",
-        name: "/technology",
-        component: technology
-    }, {
         path: "/index",
         name: "/index",
-        component: containerright
-    },
+        component: first,
+        children: [
+            {
+                path: "technology",
+                component: technology
+            },
+            {
+                path: "containerright",
+                component: containerright
+            }
+        ]
+    }, {
+        path: "/company",
+        name: "/company",
+        component: company
+    }, {
+        path: "/resume",
+        name: "/resume",
+        component: resume
+    }, {
+        path: "/jobdetail",
+        name: "/jobdetail",
+        component: jobdetail
+    }
 
 ];
 
@@ -45,29 +70,24 @@ var router = new VueRouter({
 window.router = router;
 
 new Vue({
-    el: '#header',
-    // router,
-    render: h => h(header)
-});
-new Vue({
-    el: '#my-container',
+    el: '#headerContainer',
     router,
-    render: h => h(container),
+    render: h => h(headerContainer),
     watch: {
-        '$route': "autoindex"
+        '$route': "lagouindex"
     },
     created(){
-        this.autoindex();
+        this.lagouindex();
     },
     methods: {
-        autoindex(){
-            if (router.history.current.path == "/" || router.history.current.path == "/index.html") {
-                router.push("/index");
+        lagouindex(){
+            if (router.history.current.path == "/" || router.history.current.path == "/index" || router.history.current.path == "/index.html") {
+                router.push("/index/containerright");
             }
         }
     }
-
-});
+})
+;
 new Vue({
     el: '#bottom',
     // router,

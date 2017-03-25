@@ -2,7 +2,7 @@
     <div class="advert">
         <div class="advertItem">
             <div class="shouImg">
-                <img src="../../images/a254b11ecead45bda166afa8aaa9c8bc.jpg"/>
+                <img src="../../../../images/a254b11ecead45bda166afa8aaa9c8bc.jpg"/>
             </div>
             <div class="hot_info">
                 <h2>联想</h2>
@@ -12,7 +12,7 @@
         </div>
         <div class="advertItem">
             <div class="shouImg">
-                <img src="../../images/c75654bc2ab141df8218983cfe5c89f9.jpg"/>
+                <img src="../../../../images/c75654bc2ab141df8218983cfe5c89f9.jpg"/>
             </div>
             <div class="hot_info">
                 <h2>淘米</h2>
@@ -22,7 +22,7 @@
         </div>
         <div class="advertItem">
             <div class="shouImg">
-                <img src="../../images/2bba2b71d0b0443eaea1774f7ee17c9f.png"/>
+                <img src="../../../../images/2bba2b71d0b0443eaea1774f7ee17c9f.png"/>
             </div>
             <div class="hot_info">
                 <h2>优酷土豆</h2>
@@ -32,7 +32,7 @@
         </div>
         <div class="advertItem">
             <div class="shouImg">
-                <img src="../../images/f4822a445a8b495ebad81fcfad3e40e2.jpg"/>
+                <img src="../../../../images/f4822a445a8b495ebad81fcfad3e40e2.jpg"/>
             </div>
             <div class="hot_info">
                 <h2>思特沃克</h2>
@@ -42,7 +42,7 @@
         </div>
         <div class="advertItem">
             <div class="shouImg">
-                <img src="../../images/5caf8f9631114bf990f87bb11360653e.png"/>
+                <img src="../../../../images/5caf8f9631114bf990f87bb11360653e.png"/>
             </div>
             <div class="hot_info">
                 <h2>奇猫</h2>
@@ -52,7 +52,7 @@
         </div>
         <div class="advertItem">
             <div class="shouImg">
-                <img src="../../images/c0052c69ef4546c3b7d08366d0744974.jpg"/>
+                <img src="../../../../images/c0052c69ef4546c3b7d08366d0744974.jpg"/>
             </div>
             <div class="hot_info">
                 <h2>堆糖</h2>

@@ -2,11 +2,20 @@
     <div id="header">
         <div id="top">
             <img src="../images/logo.png" alt="">
+
             <ul class="topBar">
-                <li class="active">首页</li>
-                <li>公司</li>
-                <li>我的简历</li>
-                <li>发布职位</li>
+                <router-link :to="{ path: '/index/containerright' }">
+                    <li class="active">首页</li>
+                </router-link>
+                <router-link :to="{ path: '/company' }">
+                    <li>公司</li>
+                </router-link>
+                <router-link :to="{ path: '/resume' }">
+                    <li>我的简历</li>
+                </router-link>
+                <router-link :to="{ path: '/jobdetail' }">
+                    <li>发布职位</li>
+                </router-link>
             </ul>
             <div class="loginBtn">
                 <a href="#">注册</a>

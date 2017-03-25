@@ -6,7 +6,7 @@
 <style>
     /*回到顶部*/
     #returnBack {
-        background: rgba(0, 0, 0, 0) url(../../images/backtop.png) no-repeat scroll left top;
+        background: rgba(0, 0, 0, 0) url(../../../../images/backtop.png) no-repeat scroll left top;
         position: fixed;
         right: 20%;
         bottom: 80px;

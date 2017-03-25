@@ -27,13 +27,13 @@
     }
 </style>
 <script type="es6">
-    import left from '../components/containerleft.vue'
+    import leftNav from '../system/first/containerLeft/containerleft.vue'
     module.exports = {
         data(){
             return {}
         },
         components: {
-            "my-component-containerleft": left
+            "my-component-containerleft": leftNav
         }
     }
 </script>

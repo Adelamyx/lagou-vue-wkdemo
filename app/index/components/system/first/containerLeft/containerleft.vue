@@ -4,7 +4,7 @@
         <div class="menu_box">
             <div class="nav_main">
                 <h2>技术<span></span></h2>
-                <router-link :to="{ path: '/technology' }">
+                <router-link :to="{ path: '/index/technology' }">
                     <a href="javascript:;">Java</a>
                 </router-link>
                 <a href="#">PHP</a>
@@ -378,9 +378,10 @@
     </div>
 </template>
 <style>
-    .leftNav{
+    .leftNav {
         width: 100%;
     }
+
     .leftNav .menu_box {
         position: relative;
         z-index: 7;
@@ -427,7 +428,7 @@
         float: right;
         width: 13px;
         height: 14px;
-        background: rgba(0, 0, 0, 0) url(../images/arr.png) no-repeat scroll 0 0;
+        background: rgba(0, 0, 0, 0) url(../../../../images/arr.png) no-repeat scroll 0 0;
     }
 
     .leftNav .menu_box .nav_sub {
@@ -473,7 +474,7 @@
         height: 12px;
         float: right;
         padding: 5px;
-        background: rgba(0, 0, 0, 0) url(../images/sub_icon.png) no-repeat scroll 0 0;
+        background: rgba(0, 0, 0, 0) url(../../../../images/sub_icon.png) no-repeat scroll 0 0;
     }
 </style>
 <script>

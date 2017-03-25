@@ -1540,7 +1540,7 @@
         </div>
         <!--end NewJob-->
         <!--查看更多开始-->
-        <a href="#" id="viewMore">查看更多<span><img src="../../images/sub_icon.png"/></span></a>
+        <a href="#" id="viewMore">查看更多<span><img src="../../../../images/sub_icon.png"/></span></a>
         <!--查看更多结束  -->
     </div>
 </template>
