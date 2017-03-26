@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4e13c4b-5f2f-4216-8e0d-52831df0a2cd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/index/images/c_edit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/index/images/default_headpic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/index/images/profile_add.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/index/images/profile_square.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/index/images/radio_checked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/global/plugins/radialIndicator.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index/components/navigation/company.vue" afterPath="$PROJECT_DIR$/app/index/components/navigation/company.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index/components/navigation/resume.vue" afterPath="$PROJECT_DIR$/app/index/components/navigation/resume.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index/index.js" afterPath="$PROJECT_DIR$/app/index/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/webpack.config.js" afterPath="$PROJECT_DIR$/build/webpack.config.js" />
-    </list>
+    <list default="true" id="d4e13c4b-5f2f-4216-8e0d-52831df0a2cd" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -438,7 +426,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53001000" />
+    <option name="totallyTimeSpent" value="53200000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
