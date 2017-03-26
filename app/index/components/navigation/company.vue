@@ -944,29 +944,25 @@
     }
 
     @media only screen and (max-width: 1470px) {
-        #header,
-        #container {
+        #companyContainer {
             width: 60%;
         }
     }
 
     @media only screen and (max-width: 1340px) {
-        #header,
-        #container {
+        #companyContainer {
             width: 65%;
         }
     }
 
     @media only screen and (max-width: 1240px) {
-        #header,
-        #container {
+        #companyContainer {
             width: 70%;
         }
     }
 
     @media only screen and (max-width: 1150px) {
-        #header,
-        #container {
+        #companyContainer {
             width: 100%;
         }
     }
@@ -1008,3 +1004,27 @@
         }
     }
 </style>
+<script>
+    module.exports = {
+        data: function () {
+            //数据
+            return {}
+        },
+        mounted: function () {
+            //第一次加载的时候调用这个方法
+            $('.placeNav li:last-of-type').click(function() {
+                var down = $(this).children('a').children('.down')
+                if (down.hasClass('active')) {
+                    down.removeClass('active');
+                    $('.otherPlaceNav').hide();
+                } else {
+                    down.addClass('active');
+                    $('.otherPlaceNav').show();
+                }
+            });
+        },
+        methods: {
+            //方法
+        }
+    }
+</script>

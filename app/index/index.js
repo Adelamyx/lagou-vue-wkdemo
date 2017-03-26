@@ -3,6 +3,7 @@ import Vue from 'vue'
 import VueRouter from 'mod/vue-router'
 import VueResource from 'vue-resource'
 import 'mod/jquery'
+import 'mod/radiallndicator'
 
 //===========导入Vue组件==============
 import headerContainer from './components/headerContainer.vue'
